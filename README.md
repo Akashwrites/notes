@@ -1,2 +1,22 @@
 # notes
 My own notes
+
+# unordred list
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+#orderd list
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+#anchor tag(links)
+<a href="url">link text</a>
+
+#image tag
+<img src="url" alt="alternatetext" width="500" height="600">
