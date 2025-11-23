@@ -20,3 +20,9 @@ My own notes
 
 #image tag
 <img src="url" alt="alternatetext" width="500" height="600">
+
+<hr> is used for hrizontal line 
+
+<div> </div> is used to group everything within it together 
+
+b,i,u is used for text (bold.italci,underline)
