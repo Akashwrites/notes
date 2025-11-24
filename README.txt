@@ -52,3 +52,25 @@ b,i,u is used for text (bold.italci,underline)
     <td> daat2</td>
   </tr>
 </table>
+
+
+using sematics for table
+    <table >
+        <tr>
+            <thead>
+                <th>head1</th>
+                <th>head2</th>
+            </thead>
+        </tr>
+
+        <tr>
+            <tbody>
+                <td>
+                    data1
+                </td>
+                <td>
+                    data2
+                </td>
+            </tbody>
+        </tr>
+    </table>
