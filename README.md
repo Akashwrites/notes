@@ -26,3 +26,15 @@ My own notes
 <div> </div> is used to group everything within it together 
 
 b,i,u is used for text (bold.italci,underline)
+
+
+#video tag 
+<video src="video.mp4" controls></video>   
+<video src="video.mp4" controls poster="thumbnail.jpg"></video>   
+
+#audio tag
+<audio controls>
+  <source src="sound.ogg" type="audio/ogg">
+  <source src="sound.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
