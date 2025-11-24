@@ -38,3 +38,17 @@ b,i,u is used for text (bold.italci,underline)
   <source src="sound.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+#table tag
+<table>
+  
+  <caption> table name</caption>
+  <tr>
+  <th> header1</th>
+  <th> header2</th>
+  </tr>
+  <tr>
+    <td> data1</td>
+    <td> daat2</td>
+  </tr>
+</table>
