@@ -56,6 +56,7 @@ b,i,u is used for text (bold.italci,underline)
 
 using sematics for table
     <table >
+        <caption> decription of the table </caption>
         <tr>
             <thead>
                 <th>head1</th>
@@ -74,3 +75,23 @@ using sematics for table
             </tbody>
         </tr>
     </table>
+
+
+# forms in html
+action attribute is sued to define what action to be done for this form
+
+input tag is used to get the input 
+they r of soo many types depends on what we need 
+    <form action="">
+        <input type="text" name="" id="">
+        <input type='password'>
+        <input type="color">
+        <input type="date">
+        <input type="week">
+    </form>
+
+placeholder in input used to show what should be written here 
+
+<label for="username">Click me to focus on the input field</label>
+<input type="text" id="username" />
+
