@@ -95,3 +95,26 @@ placeholder in input used to show what should be written here
 <label for="username">Click me to focus on the input field</label>
 <input type="text" id="username" />
 
+Checkbox
+<input type="checkbox" name="hobby" value="cricket">
+Checkbox lets the user select zero, one, or many options from a list.  
+
+Radio button
+<input type="radio" name="gender" value="male">
+Radio button lets the user select exactly one option from a group (same name)
+
+Select (dropdown)
+<select name="city">
+  <option value="indore">Indore</option>
+  <option value="bhopal">Bhopal</option>
+</select>
+Select creates a dropdown list where the user chooses one (or, with multiple, several) options.
+
+range
+
+<input type="range" name="volume" min="0" max="100" value="50" step="5">
+
+Textarea 
+<textarea name="feedback" rows="5" cols="40" placeholder="Enter your feedback here"></textarea>
+
+
