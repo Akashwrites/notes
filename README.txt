@@ -118,3 +118,57 @@ Textarea
 <textarea name="feedback" rows="5" cols="40" placeholder="Enter your feedback here"></textarea>
 
 
+Inline CSS
+Inline CSS is written directly inside an HTML tag using the style attribute, and it applies only to that specific element
+<p style="color: red; font-size: 20px;">Hello</p>
+
+
+Internal CSS
+Internal CSS is written inside a <style> tag placed in the <head> section of the HTML file and can style multiple elements on that single page
+<head>
+  <style>
+    p { color: blue; font-size: 18px; }
+  </style>
+</head>
+
+External CSS
+External CSS is written in a separate .css file and linked to the HTML document using a <link> tag inside the <head> section, allowing reuse across many pages
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+basic css syntax
+selector {
+  property: value;
+}
+
+colour
+selector {
+  color: value;
+}
+
+background colour 
+selector {
+  background-color: value;
+}
+
+fonntweight
+selector {
+  font-weight: value;
+}
+
+
+text decoration
+none → no decoration (often used to remove underline from links)
+underline → line below the text
+overline → line above the text
+line-through → line through the text (strike-through)
+
+
+line-height sets the height of line boxes, controlling vertical space between lines of text for better readability
+
+FONT FAMILY
+selector {
+  font-family: "font name", fallback, generic-family;
+}
