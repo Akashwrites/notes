@@ -172,3 +172,30 @@ FONT FAMILY
 selector {
   font-family: "font name", fallback, generic-family;
 }
+
+
+Descendant Selector
+A B {
+  property: value;
+}
+
+Child combinator 
+A > B {
+  property: value;
+}
+
+Attribute Selector
+element[attribute] { }
+element[attribute="value"] { }
+
+Pseudo-class
+hover , active , nth-of-type, checked
+
+selector:pseudo-class {
+  property: value;
+}
+
+cascading property- only the last changed element will be shown in the website 
+specificity -  !inportant>inline specificity>id>class>element
+
+if specificity is same ,then it will decide by  cascading
