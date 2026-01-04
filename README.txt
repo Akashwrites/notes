@@ -199,3 +199,11 @@ cascading property- only the last changed element will be shown in the website
 specificity -  !inportant>inline specificity>id>class>element
 
 if specificity is same ,then it will decide by  cascading
+
+border shorthand in css
+border: <border-width> <border-style> <border-color>;
+
+
+Side-specific shorthand
+border-top: 2px solid red;
+
