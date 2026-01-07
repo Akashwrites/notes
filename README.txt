@@ -222,3 +222,20 @@ flex-direction: row-reverse;
 flex-direction: column;
 flex-direction: column-reverse;
 
+align content 
+align-content: stretch;        /* default    align self is more priority than align content*/   
+align-content: flex-start;
+align-content: flex-end;
+align-content: center;
+align-content: space-between;
+align-content: space-around;
+align-content: space-evenly;
+
+
+align self synatxs align-items: stretch;     /* default */
+align-items: flex-start;
+align-items: flex-end;
+align-items: center;
+
+flex-grow ;
+flex-shrink ;
