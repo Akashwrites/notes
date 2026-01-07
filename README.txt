@@ -207,3 +207,18 @@ border: <border-width> <border-style> <border-color>;
 Side-specific shorthand
 border-top: 2px solid red;
 
+
+justify content
+justify-content: flex-start;
+justify-content: flex-end;
+justify-content: center;
+justify-content: space-between;
+justify-content: space-around;
+justify-content: space-evenly;
+
+flex direction ---- imp 
+flex-direction: row;             /* default */
+flex-direction: row-reverse;
+flex-direction: column;
+flex-direction: column-reverse;
+
