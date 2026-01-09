@@ -1,0 +1,16 @@
+header{
+    height: 50px;
+    width: 900px;
+    background-color: palevioletred;
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+}
+
+.head{
+    margin-right: 60px;
+    margin-top: 10px;
+
+
+
+}

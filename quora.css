@@ -1,0 +1,23 @@
+*{
+    background-color: rgb(35, 35, 35);
+    color: white;
+}
+
+h1{
+    color: brown;
+    font-family:cursive;
+}
+
+.follow{
+    color: rgb(255, 230, 0);
+    
+}
+#login{
+    color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#signup{
+    color: darkblue;
+
+}
