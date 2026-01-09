@@ -1,0 +1,15 @@
+#main{
+    background-color: rgb(217, 255, 104);
+    height: 10%;
+    width: 800px;
+    border: 2px black dotted;
+    display: grid;
+    margin: auto;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px ;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    border: 2px grey dashed;
+}
