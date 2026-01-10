@@ -263,3 +263,8 @@ grid and flex are block elements , if uneed to make it inlioe u can use inline-g
 
 
 ----CSS ANIMATION -----
+
+@keyframes <any_name>{
+  from{font-size:20px;}
+  to{font-size:40px;}
+}

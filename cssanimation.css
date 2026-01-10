@@ -1,0 +1,14 @@
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+    animation-name: ani;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes ani{
+  from{font-size:20px;}
+  to{font-size:100px;}
+}
