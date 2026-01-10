@@ -1,15 +1,23 @@
 #main{
     background-color: rgb(217, 255, 104);
-    height: 10%;
+    height: 500px;
     width: 800px;
     border: 2px black dotted;
     display: grid;
-    margin: auto;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px ;
+    margin:  auto;
+    /*grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px ;*/
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5,1fr);
 }
 .child{
-    width: 100px;
-    height: 100px;
+    /* we can even remove the hight of the individual children to make them the same size of the grid cell*/
+   
     border: 2px grey dashed;
+    text-align: center;
+   
+}
+#unique{
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
