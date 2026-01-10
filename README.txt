@@ -239,3 +239,27 @@ align-items: center;
 
 flex-grow ;
 flex-shrink ;
+
+
+gid-template-rows:;
+grid-template-columns:;
+row-gap:;
+column-gap:;
+grid-gap: rowgapval colgapval;
+
+
+
+grid-column-start: ; // these are used to extend a single conatiners lengeth inside a grid 
+grid-column-end: ;
+grid-row-start: ;
+grid-row-end: ;
+
+grid-column: start/end;
+grid-row: start/end;
+
+justify-items inside a grid is used for horizontal directiopn where as align-items is used for vertical direction 
+
+grid and flex are block elements , if uneed to make it inlioe u can use inline-grid or inline-flex in display 
+
+
+----CSS ANIMATION -----
