@@ -282,3 +282,44 @@ element {
     position: relative | absolute | fixed | sticky;
     z-index: number;
 }
+
+
+
+
+
+BOOTSTRAP
+
+DIRECTLY CAN BE INLUCED FOR CSS VIA THIS link
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+FOR JAVASCRIPT WE CAN USE THIS LINK 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+
+container class in bootstrap
+<div class="container">
+    Your content here
+</div>
+
+
+buttton in bootstrap
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+
+
+outline button in bootstrap<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-light">Light</button>
+<button type="button" class="btn btn-outline-dark">Dark</button>
