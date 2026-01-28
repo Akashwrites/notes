@@ -268,3 +268,17 @@ grid and flex are block elements , if uneed to make it inlioe u can use inline-g
   from{font-size:20px;}
   to{font-size:40px;}
 }
+
+--media---
+@media media-type and (condition) {
+    selector {
+        property: value;
+    }
+}
+
+
+--z index---
+element {
+    position: relative | absolute | fixed | sticky;
+    z-index: number;
+}
