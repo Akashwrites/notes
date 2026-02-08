@@ -1,0 +1,21 @@
+let keyword is used to declare variables
+let count = 1;
+count = 2;      
+count = count + 1;
+
+
+const represents constant, cannot be changed
+const PI = 3.14;
+PI = 3.14159;   
+
+var is the old way to declare variables in JavaScript
+var x = 10;
+
+
+in js we ccan change the type
+let x = 10;        // number
+x = "hello";      // string
+x = true;         // boolean
+
+console.log() is a JavaScript debugging method used to print output to the browser’s console.
+console.log(value);
