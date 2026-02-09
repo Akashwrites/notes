@@ -19,3 +19,35 @@ x = true;         // boolean
 
 console.log() is a JavaScript debugging method used to print output to the browser’s console.
 console.log(value);
+
+
+
+using backtick `
+let name = "Alex";
+console.log(`Hello ${name}!`);
+
+alert("Your message here");
+
+
+
+let name = prompt("Enter your name:");
+console.log(name);
+
+
+console.error("This is an error message");
+if (!username) {
+    console.error("Username is missing");
+}
+
+
+if (password.length < 8) {
+    console.warn("Password is too short");
+}
+
+
+ 
+ trim bis used to remove space in first n last 
+let name = "   John   ";
+console.log(name.trim());
+
+"John"
