@@ -51,3 +51,8 @@ let name = "   John   ";
 console.log(name.trim());
 
 "John"
+
+
+
+string.slice(start, end)
+string.replace(searchValue, newValue)
