@@ -56,3 +56,43 @@ console.log(name.trim());
 
 string.slice(start, end)
 string.replace(searchValue, newValue)
+
+
+
+arr.push(4);        // add at end
+arr.unshift(0);    // add at start
+
+
+
+arr.pop();          // remove from end
+arr.shift();        // remove from start
+
+
+🔹 3️⃣ Slice & Splice (IMPORTANT)
+slice() → does NOT change original
+let a = [1,2,3,4];
+a.slice(1,3); // [2,3]
+
+splice() → changes original
+let b = [1,2,3,4];
+b.splice(1,2,"x","y"); // [2,3] removed
+// b → [1,"x","y",4]
+
+arr.includes(2);      // true / false
+arr.indexOf(3);       // index or -1
+arr.lastIndexOf(2);   // last occurrence
+
+
+arr.find(x => x > 2);
+arr.findIndex(x => x > 2);
+
+
+
+🔹 2️⃣ Add / Remove elements (MOST USED 🔥)
+➕ Add elements
+arr.push(4);        // add at end
+arr.unshift(0);    // add at start
+
+➖ Remove elements
+arr.pop();          // remove from end
+arr.shift();        // remove from start
