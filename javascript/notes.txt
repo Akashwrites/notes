@@ -115,3 +115,73 @@ let fruits = ["apple", "banana", "mango"];
 for(let fruit of fruits){
     console.log(fruit);
 }
+
+setTimeout(function, delay_in_milliseconds);
+setInterval(function, delay_in_milliseconds);
+
+
+array.forEach(function(element, index, array) {
+    // code
+});
+
+EXAMPLE 
+let numbers = [1, 2, 3];
+
+numbers.forEach((num) => {
+    console.log(num);
+});
+
+
+array.map(function(element, index, array) {
+    return newValue;
+});
+
+EXAMPLE
+let numbers = [1, 2, 3];
+
+let doubled = numbers.map((num) => {
+    return num * 2;
+});
+
+console.log(doubled);
+
+
+filter()
+Used to filter elements based on condition.
+Returns a new array.
+
+array.filter(function(element, index, array) {
+    return condition;
+});
+
+Example
+let numbers = [1, 2, 3, 4];
+
+let even = numbers.filter((num) => {
+    return num % 2 === 0;
+});
+
+console.log(even);
+
+
+
+
+every()
+
+Checks if ALL elements satisfy condition.
+Returns true or false.
+
+array.every(function(element, index, array) {
+    return condition;
+});
+
+Example
+let numbers = [2, 4, 6];
+
+let allEven = numbers.every((num) => {
+    return num % 2 === 0;
+});
+
+console.log(allEven);
+
+
